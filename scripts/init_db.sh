@@ -1,5 +1,5 @@
 set -x
-set -eo pipefail
+set -e pipefail
 
 DB_USER=${POSTGRES_USER:=postgres}
 DB_PASSWORD="${POSTGRES_PASSWORD:=password}"
